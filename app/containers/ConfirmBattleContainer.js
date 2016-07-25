@@ -2,6 +2,7 @@ var React = require('react');
 var ConfirmBattle = require('../components/ConfirmBattle');
 var githubHelpers = require('../utils/githubHelpers');
 
+
 var ConfirmBattleContainer = React.createClass({
 	contextTypes: {
 		router: React.PropTypes.object.isRequired
@@ -30,6 +31,7 @@ var ConfirmBattleContainer = React.createClass({
 	},
 
 	handleInitiateBattle: function (){
+		console.log('handleInitiateBattle');
 		this.context.router.push({
 			path: '/results',
 			state: {
@@ -41,9 +43,9 @@ var ConfirmBattleContainer = React.createClass({
 	render : function(){
 		return (
 			<ConfirmBattle
-				isLoading={this.state.isLoading}
-				playersInfo={this.state.playersInfo}
-				onInitiateBattle={this.handleInitiateBattle} />
+				isLoading = {this.state.isLoading}
+				playersInfo = {this.state.playersInfo}
+				onInitiateBattle = {this.handleInitiateBattle} />
 		)
 	}
 });
