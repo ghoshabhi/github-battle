@@ -16,10 +16,10 @@ function ConfirmBattle(props){
           <h1>Confirm Players </h1>
           <div className='col-sm-8 col-sm-offset-2'>
             <UserDetailsWrapper header="Player 1">
-              <UserDetails info={puke(props.playersInfo[0])} />
+              <UserDetails info={props.playersInfo[0]} />
             </UserDetailsWrapper>
             <UserDetailsWrapper header="PLayer 2">
-              <UserDetails info={puke(props.playersInfo[1])} />
+              <UserDetails info={props.playersInfo[1]} />
             </UserDetailsWrapper>
           </div>
           <div className='col-sm-8 col-sm-offset-2'>
