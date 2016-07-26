@@ -1,4 +1,4 @@
-var React = require('React');
+var React = require('react');
 var styles = require('../styles');
 var PropTypes = React.PropTypes;
 var Link = require('react-router').Link;
