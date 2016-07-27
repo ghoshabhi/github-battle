@@ -4,6 +4,9 @@ var styles = {
 	},
 	padding: {
 		padding: '5px'
+	},
+	space: {
+		marginTop: '25px',
 	}
 };
 
