@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "production": "webpack -w",
-    "start": "webpack-dev-server --port 50001"
+    "start": "webpack-dev-server --port 5001"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.13.1",
     "react": "^15.2.1",
+    "react-addons-css-transition-group": "^15.2.1",
     "react-dom": "^15.2.1",
     "react-router": "^2.0.0-rc5"
   },
@@ -19,9 +20,11 @@
     "babel-core": "^6.10.4",
     "babel-loader": "^6.2.4",
     "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.23.1",
     "eslint": "^3.1.0",
     "eslint-plugin-react": "^5.2.2",
     "html-webpack-plugin": "^2.22.0",
+    "style-loader": "^0.13.1",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   }
